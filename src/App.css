@@ -1,0 +1,24 @@
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  transition: background-color 4s ease;
+  height: 100vh;
+  width: 100vw;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  transition: fill 4s ease;
+  height: 280px;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
